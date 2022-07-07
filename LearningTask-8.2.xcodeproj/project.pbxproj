@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		583A39D728775296002C6288 /* AspectFillTopAligned+UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 583A39D628775296002C6288 /* AspectFillTopAligned+UIImageView.swift */; };
+		583A39D928775347002C6288 /* LivrosAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 583A39D828775347002C6288 /* LivrosAPI.swift */; };
+		583A39DB2877535D002C6288 /* Livro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 583A39DA2877535D002C6288 /* Livro.swift */; };
+		583A39DE28775380002C6288 /* ListaDeItensHorizontal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 583A39DD28775380002C6288 /* ListaDeItensHorizontal.swift */; };
+		583A39E1287753C0002C6288 /* TableSectionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 583A39E0287753C0002C6288 /* TableSectionHeaderView.swift */; };
+		583A39E328775515002C6288 /* AutorTableHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 583A39E228775515002C6288 /* AutorTableHeaderView.swift */; };
 		5840B4EE28610694000FA9FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5840B4ED28610694000FA9FC /* AppDelegate.swift */; };
 		5840B4F028610694000FA9FC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5840B4EF28610694000FA9FC /* SceneDelegate.swift */; };
 		5840B4F228610694000FA9FC /* AutoresListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5840B4F128610694000FA9FC /* AutoresListViewController.swift */; };
@@ -16,11 +22,17 @@
 		5840B50628610928000FA9FC /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5840B50528610928000FA9FC /* Theme.swift */; };
 		5840B50A28610AEC000FA9FC /* AutorTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5840B50928610AEC000FA9FC /* AutorTableViewCell.swift */; };
 		5840B50C28610B12000FA9FC /* Autor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5840B50B28610B12000FA9FC /* Autor.swift */; };
-		5840B50F28610B91000FA9FC /* AutorAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5840B50E28610B91000FA9FC /* AutorAPI.swift */; };
+		5840B50F28610B91000FA9FC /* AutoresAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5840B50E28610B91000FA9FC /* AutoresAPI.swift */; };
 		5840B5132861FEC4000FA9FC /* NovoAutorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5840B5122861FEC3000FA9FC /* NovoAutorViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		583A39D628775296002C6288 /* AspectFillTopAligned+UIImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AspectFillTopAligned+UIImageView.swift"; sourceTree = "<group>"; };
+		583A39D828775347002C6288 /* LivrosAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LivrosAPI.swift; sourceTree = "<group>"; };
+		583A39DA2877535D002C6288 /* Livro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Livro.swift; sourceTree = "<group>"; };
+		583A39DD28775380002C6288 /* ListaDeItensHorizontal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListaDeItensHorizontal.swift; sourceTree = "<group>"; };
+		583A39E0287753C0002C6288 /* TableSectionHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableSectionHeaderView.swift; sourceTree = "<group>"; };
+		583A39E228775515002C6288 /* AutorTableHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutorTableHeaderView.swift; sourceTree = "<group>"; };
 		5840B4EA28610694000FA9FC /* LearningTask-8.2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LearningTask-8.2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5840B4ED28610694000FA9FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5840B4EF28610694000FA9FC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -32,7 +44,7 @@
 		5840B50528610928000FA9FC /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 		5840B50928610AEC000FA9FC /* AutorTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutorTableViewCell.swift; sourceTree = "<group>"; };
 		5840B50B28610B12000FA9FC /* Autor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Autor.swift; sourceTree = "<group>"; };
-		5840B50E28610B91000FA9FC /* AutorAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutorAPI.swift; sourceTree = "<group>"; };
+		5840B50E28610B91000FA9FC /* AutoresAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoresAPI.swift; sourceTree = "<group>"; };
 		5840B5122861FEC3000FA9FC /* NovoAutorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NovoAutorViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -47,6 +59,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		583A39D428775261002C6288 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				583A39D528775270002C6288 /* Extensions */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		583A39D528775270002C6288 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				583A39D628775296002C6288 /* AspectFillTopAligned+UIImageView.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		583A39DC2877536F002C6288 /* Componentes */ = {
+			isa = PBXGroup;
+			children = (
+				583A39DD28775380002C6288 /* ListaDeItensHorizontal.swift */,
+				583A39E0287753C0002C6288 /* TableSectionHeaderView.swift */,
+			);
+			path = Componentes;
+			sourceTree = "<group>";
+		};
 		5840B4E128610694000FA9FC = {
 			isa = PBXGroup;
 			children = (
@@ -68,10 +105,12 @@
 			children = (
 				5840B5042861087C000FA9FC /* Supportive Files */,
 				5840B4F628610698000FA9FC /* Assets.xcassets */,
+				583A39D428775261002C6288 /* Common */,
 				5840B50D28610B85000FA9FC /* API */,
 				5840B5022861086C000FA9FC /* Models */,
 				5840B50128610868000FA9FC /* View */,
 				5840B50328610870000FA9FC /* Scenes */,
+				583A39E228775515002C6288 /* AutorTableHeaderView.swift */,
 			);
 			path = "LearningTask-8.2";
 			sourceTree = "<group>";
@@ -80,6 +119,7 @@
 			isa = PBXGroup;
 			children = (
 				5840B4F328610694000FA9FC /* Main.storyboard */,
+				583A39DC2877536F002C6288 /* Componentes */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -88,6 +128,7 @@
 			isa = PBXGroup;
 			children = (
 				5840B50B28610B12000FA9FC /* Autor.swift */,
+				583A39DA2877535D002C6288 /* Livro.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -133,7 +174,8 @@
 		5840B50D28610B85000FA9FC /* API */ = {
 			isa = PBXGroup;
 			children = (
-				5840B50E28610B91000FA9FC /* AutorAPI.swift */,
+				5840B50E28610B91000FA9FC /* AutoresAPI.swift */,
+				583A39D828775347002C6288 /* LivrosAPI.swift */,
 			);
 			path = API;
 			sourceTree = "<group>";
@@ -219,12 +261,18 @@
 			files = (
 				5840B4F228610694000FA9FC /* AutoresListViewController.swift in Sources */,
 				5840B50C28610B12000FA9FC /* Autor.swift in Sources */,
+				583A39E328775515002C6288 /* AutorTableHeaderView.swift in Sources */,
+				583A39DE28775380002C6288 /* ListaDeItensHorizontal.swift in Sources */,
 				5840B50A28610AEC000FA9FC /* AutorTableViewCell.swift in Sources */,
 				5840B50628610928000FA9FC /* Theme.swift in Sources */,
+				583A39DB2877535D002C6288 /* Livro.swift in Sources */,
 				5840B4EE28610694000FA9FC /* AppDelegate.swift in Sources */,
-				5840B50F28610B91000FA9FC /* AutorAPI.swift in Sources */,
+				5840B50F28610B91000FA9FC /* AutoresAPI.swift in Sources */,
 				5840B5132861FEC4000FA9FC /* NovoAutorViewController.swift in Sources */,
+				583A39D928775347002C6288 /* LivrosAPI.swift in Sources */,
+				583A39D728775296002C6288 /* AspectFillTopAligned+UIImageView.swift in Sources */,
 				5840B4F028610694000FA9FC /* SceneDelegate.swift in Sources */,
+				583A39E1287753C0002C6288 /* TableSectionHeaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  AutoresListViewController.swift
 //  LearningTask-8.2
 //
 //  Created by rafael.rollo on 20/06/2022.
@@ -9,7 +9,7 @@ import UIKit
 
 class AutoresListViewController: UITableViewController {
 
-    var autorAPI: AutorAPI?
+    var autoresAPI: AutoresAPI?
     
     var autores: [Autor] = [] {
         didSet {
@@ -22,11 +22,18 @@ class AutoresListViewController: UITableViewController {
         applyTheme()
         // Do any additional setup after loading the view.
     
+        setupViews()
         carregaAutores()
+    }
+    
+    private func setupViews() {
+        tableView.register(TableSectionHeaderView.self, forHeaderFooterViewReuseIdentifier: TableSectionHeaderView.reuseId)
+        tableView.sectionHeaderHeight = TableSectionHeaderView.alturaBase
+        tableView.sectionHeaderTopPadding = 0
     }
 
     func carregaAutores() {
-        guard let autorAPI = autorAPI else { return }
+        guard let autorAPI = autoresAPI else { return }
         self.autores = autorAPI.listaTodos()
     }
 
@@ -57,6 +64,15 @@ extension AutoresListViewController {
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: indexPath, animated: true)
+    }
+    
+    override func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
+        guard let headerView = tableView.dequeueReusableHeaderFooterView(withIdentifier: TableSectionHeaderView.reuseId) as? TableSectionHeaderView else {
+            fatalError("Não foi possível obter view de header para a lista de autores.")
+        }
+        
+        headerView.titulo = "Todos os Autores"
+        return headerView
     }
     
 }
