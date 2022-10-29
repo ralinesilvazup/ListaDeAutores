@@ -31,7 +31,13 @@ extension ThemeConfigurable {
         logoImageView.frame = titleView.bounds
         titleView.addSubview(logoImageView)
         
+//        let button = UIButton(type: .contactAdd)
+//        
+//        let rightButton = UIBarButtonItem(customView: button)
+//        self.navigationItem.rightBarButtonItem = rightButton
+        
         navigationItem.titleView = titleView
+        
     }
 }
 
